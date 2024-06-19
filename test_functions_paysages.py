@@ -5,7 +5,7 @@ import seaborn as sns
 import numpy as np
 
 
-n = 100
+n = 20
 p0 = 0.2
 
 #---------------------------------------- 
@@ -13,20 +13,22 @@ V = get_von_neumann_neighbors(100,3,2)
 #print(len(V))
  
 #------------------------------------ 
-paysage  = initial_paysage(n,p0)
-
+paysage0  = initial_paysage(n,p0)
+fig0 = plot_my_paysage(paysage0,"Temps= 0")
+plt.show()
 #---------------------- 
 U = random.choice(V)
+
+
 #print(U[0])
 #print(U[1])
 #print(paysage[U[0],U[1]])
 
 
 #-------------------- 
-neighbors1  = tuple(get_von_neumann_neighbors(n, 1,2))
-neighbors2  = tuple(get_von_neumann_neighbors(n, 1,3))
-print(type(neighbors1))
+neighbors  = get_von_neumann_neighbors_2cells(n, 16,1,16,2)
+print(neighbors)
 
-print(neighbors1 + neighbors2)
-print(set(neighbors1))
+ 
+
     
