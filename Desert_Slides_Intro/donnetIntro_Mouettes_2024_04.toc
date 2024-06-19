@@ -1,0 +1,6 @@
+\babel@toc {french}{}\relax 
+\beamer@sectionintoc {1}{Introduction }{3}{0}{1}
+\beamer@sectionintoc {2}{Les données Biocom}{15}{0}{2}
+\beamer@sectionintoc {3}{Un modèle minimal des dynamiques de végétation}{16}{0}{3}
+\beamer@sectionintoc {4}{Résultats de l'inférence}{23}{0}{4}
+\beamer@sectionintoc {5}{Prédire le futur de ces écosystèmes}{28}{0}{5}
